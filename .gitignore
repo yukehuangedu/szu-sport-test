@@ -1,0 +1,13 @@
+# 项目记忆与本地配置，不发布
+.workbuddy-ai/
+
+# 原始截图（含姓名、学号、病史），只提交 assets/img 下脱敏后的版本
+*.jpg
+*.jpeg
+*.png
+!assets/img/*.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
